@@ -30,8 +30,7 @@ export default function LandingHeading() {
             lineHeight={1.2}
             fontSize={useBreakpointValue({ base: "3xl", md: "4xl" })}
           >
-            Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
-            eiusmod tempor
+            Internações voluntárias e involuntárias.
           </Text>
           <Stack direction={"row"}>
             <TemplateButtom

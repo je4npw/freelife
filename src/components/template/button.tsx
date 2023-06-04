@@ -5,16 +5,24 @@ interface ButtonProps {
   color: string;
   hover: string;
   content: string;
+  leftIcon?: any;
 }
-export default function TemplateButtom({
+export default function TemplateButton({
   bg,
   color,
   hover,
   content,
+  leftIcon,
 }: ButtonProps) {
+
   return (
-    <Button bg={bg} rounded={"full"} color={color} _hover={{ bg: hover }}>
-      {content}
-    </Button>
+      <Button bg={bg}
+              rounded={"full"}
+              color={color}
+              _hover={{bg: hover}}
+              leftIcon={leftIcon}
+      >
+        {content}
+      </Button>
   );
 }

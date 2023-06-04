@@ -1,10 +1,11 @@
 import Footer from "./components/main/footer";
-import LandingHeading from "./components/main/head";
+import Split_screen from "./components/main/split_screen.tsx";
 
 export default function App() {
   return (
     <>
-      <LandingHeading />
+        <Split_screen />
+      {/*<LandingHeading />*/}
       <Footer />
     </>
   );
