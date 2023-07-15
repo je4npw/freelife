@@ -1,11 +1,16 @@
 import Footer from "./components/main/footer";
-import Split_screen from "./components/main/split_screen.tsx";
+import FirstCta from "./components/main/firstCta.tsx";
+import VoluntarioCta from "./components/main/voluntarioCta.tsx";
+import InvoluntarioCta from "./components/main/involuntarioCta.tsx";
+import ConsideraCta from "./components/main/consideraCta.tsx";
 
 export default function App() {
   return (
     <>
-        <Split_screen />
-      {/*<LandingHeading />*/}
+      <FirstCta />
+      <VoluntarioCta />
+      <InvoluntarioCta />
+      <ConsideraCta />
       <Footer />
     </>
   );
